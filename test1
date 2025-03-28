@@ -1,0 +1,276 @@
+
+.container
+{
+    display: flex;
+    margin: auto;
+    padding: 0%;
+    background-color: rgb(34, 11, 238);
+    border-radius: 20px;
+
+}
+.innercontainer
+{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        width: 380px;
+        height: 600px;
+        border: 1px solid black;
+        background-color: hsl(0, 0%, 98%);
+        border-radius: 20px;
+        margin-top: 72px;
+        margin-left: -120px;
+        position: relative;
+        margin-right: -160px;
+        right: 39.4%;
+        
+    }
+
+
+
+h4{
+  display: inline;
+  color: hsl(0, 0%, 98%);
+  padding-top: 20px;
+}
+
+h6{   
+     color: hwb(50 95% 3%);
+
+}
+.search{
+    margin : 15px;
+    position:relative;
+    left: 15%;
+    color: aliceblue;
+    font-weight: lighter;
+}
+.win{
+margin: 15px;
+position: relative;
+left: 40%;
+color: darkorange;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgrey;
+    box-shadow: lightslategrey;
+    width: 371px;
+    height: 175px;
+    border-radius: 35px;
+    position: relative;
+    bottom: -8px;
+    right: -4px;
+    color: darkgrey;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+
+.iconbox > div{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: hwb(208 94% 0%);
+    align-items: center;
+
+
+}
+.iconbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.iconbox1{
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        width: 100%;
+        font-size: smaller;
+    }
+
+
+.cont1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.balancecheck
+{
+    display: flex;
+    border: 1px solid rgba(16, 2, 2, 0.458);
+    width: 347px;
+    height: 27px;
+    margin-top: 15px;
+    position: relative;
+    right: -8px;
+    border-radius: 8px;
+    background-color: hwb(208 94% 0%);
+    color:rgba(0, 0, 0, 0.227);
+    align-items: center;
+    font-size:smaller;
+    color: black;
+
+}
+.leftphara{
+    width: 50%;
+    margin-left:12px ;
+}
+.rightphara{
+    margin-left: 65px;
+
+}
+
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black ; */
+    width: 371px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 2px;
+    justify-content: space-between;
+}
+
+
+.card2 > .credit {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 302px;
+    height: 50px;
+    border-radius: 11px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card2 > .emi {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 51px;
+    height: 50px;
+    border-radius: 13px;
+    margin-right: -12px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgrey;
+    box-shadow: lightslategrey;
+    width: 371px;
+    height: 244px;
+    border-radius: 35px;
+    position: relative;
+    bottom: 4px;
+    right: -4px;
+    color: darkgrey;
+    background-color: hsl(0, 0%, 98%);
+    margin-top: -9%;
+}
+
+
+    
+.credit >div
+{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card4
+{
+    display: flex;
+    border: 3px solid #eadddd93;
+    box-shadow: #eadddd93;
+    width: 378px;
+    height: 60px;
+    margin-top: 31px;
+    justify-content: space-around;
+}
+.card4 > div{
+
+    display: flex;
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 40px;
+    margin-top: 31px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* .credit
+{
+        display: flex;
+        margin-top: 5px;
+        width: 285px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 12px;
+        background-color: #51209914;
+        margin-left: 5px;
+
+}
+
+
+.emi
+{
+    display: flex;
+    margin-top: 33px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1aadcb9f;
+} */
+
+ 
+
+
+
+
+/* .iconbox > div
+{
+    display: flex;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    /* display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px; */
+/*
+
+ .div
+{
+   display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+     */
